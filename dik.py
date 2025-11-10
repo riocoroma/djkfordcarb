@@ -34,6 +34,7 @@ graph = {
     'd': [('a', -2)],  # arco negativo, ma ciclo totale positivo
 }
 
-distances, previous = dijkstrafordca(graph, 's')
+distances, previous = dijkstrafordcarb(graph, 's')
 print("Distanze minime:", distances)
 print("Precedenti:", previous)
+
